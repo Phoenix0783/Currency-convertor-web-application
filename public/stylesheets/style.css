@@ -1,0 +1,132 @@
+
+body{
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.title{
+  margin: 0;
+  color: white;
+  
+  font-size: 140px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.heading{
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  float: left;
+  margin-left: 70px;
+}
+sub{
+  color: #AA336A  ;
+  font-style: italic;
+
+}
+.inp{
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+    appearance: none;
+  margin: 10px 20px;
+  padding: 0px 20px;
+  border: none;
+  width: 80%;
+  height: 60px;
+  color: #AA336A;
+  font-weight: 700;
+  border-radius: 10px;
+  outline: none;
+}
+
+::placeholder{
+  color: #FF69B4;
+  padding-left: 20px;
+}
+
+.button{
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  background: rgb(2,0,36);
+  background: linear-gradient(99deg, rgba(2,0,36,1) 0%, rgba(41,41,210,0.9475140397956058) 0%, rgba(255,0,83,1) 100%);
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+.resHead{
+  color: #FF69B4;
+}
+#val3{
+  font-size: 100px;
+  font-weight: bolder;
+  color: #AA336A;
+}
+#val4{
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  font-style: italic;
+}
+.or{
+  margin: 20px 0px;
+  font-size: 20px;
+}
+
+#img{
+  height: 450px;
+  width: 680px;
+  border-radius: 20px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+color: white;
+  font-size: 40px;
+  position: absolute;
+  bottom: 8px;
+  left: 280px;
+  font-family: 'Roboto', sans-serif;
+}
+.top-left {
+  font-family: 'Roboto', sans-serif;
+color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 8px;
+  left: 280px;
+}
+
+#memeimg{
+  width: 80%;
+  height: 650px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.label{
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 40px;
+}
+.value{
+  margin-bottom: 30px;
+  margin-left: 20px;
+  font-style: italic;
+  font-size: 30px;
+  color: #AA336A;
+}
+.ita{
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+}
